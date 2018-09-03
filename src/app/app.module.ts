@@ -8,6 +8,8 @@ import { DashboardComponent } from './dashboard/dashboard.component';
 import { ProjecttodoComponent } from './projecttodo/projecttodo.component';
 import { CommontodoComponent } from './commontodo/commontodo.component';
 import { GroceryComponent } from './grocery/grocery.component';
+import { LoginComponent } from './login/login.component';
+import { RegisterComponent } from './register/register.component';
 
 
 @NgModule({
@@ -17,7 +19,9 @@ import { GroceryComponent } from './grocery/grocery.component';
     DashboardComponent,
     ProjecttodoComponent,
     CommontodoComponent,
-    GroceryComponent
+    GroceryComponent,
+    LoginComponent,
+    RegisterComponent
   ],
   imports: [
     BrowserModule
